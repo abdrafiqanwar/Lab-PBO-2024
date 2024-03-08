@@ -61,9 +61,6 @@
    # atau
    git add "NIM/Praktikum n/FileYangBerubahAtauDitambahkan.java" #perintah ini memilih file tertentu
    
-   SAYA SARANKAN JANGAN PAKAI git add . UNTUK MENGHINDARI PENAMBAHAN UNTUK SEMUA FILE TERMASUK FILE YANG TIDAK DIINGINKAN
-   LEBIH BAIK MEMAKAI git add "NIM/Praktikum n/nama_file.java" UNTUK MENAMBAHKAN FILE
-   
    git status untuk mengecek apakah file sudah ter add atau tidak.
    Jika file yang ingin di add sudah berwarna hijau lanjut ke commit.
    Jika file yang ingin di add berwarna merah lakukan add terlebih dahulu
