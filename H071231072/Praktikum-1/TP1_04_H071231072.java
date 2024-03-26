@@ -11,7 +11,7 @@ public class TP1_04_H071231072 {
             if (r < 0) {
                 System.out.println("Jari-jari tidak boleh negatif.");
             } else {
-                luas = 3.14 * r * r;
+                luas = Math.PI * r * r;
                 System.out.printf("Luas lingkaran: %.2f%n", luas);
             }
         } catch (Exception e) {

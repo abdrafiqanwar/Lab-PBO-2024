@@ -5,8 +5,7 @@ public class TP1_01_H071231072 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan jumlah bilangan: ");
         int x = scanner.nextInt();
-        scanner.nextLine(); 
-
+        scanner.nextLine();
         int decimalCount = 0;
         int integerCount = 0;
 
@@ -24,6 +23,7 @@ public class TP1_01_H071231072 {
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Input tidak valid: " + numInput);
+                
             }
         }
 

@@ -16,12 +16,19 @@ public class TP1_03_H071231072 {
         scanner.close();
     }
 
+
     private static void printDate(int[] arr) {
         String[] namaBulan = {
             "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
         };
-        System.out.printf("%d %s %d%n", arr[0], namaBulan[arr[1] - 1], 2000 + arr[2]);
+        if (arr[1] < 1 || arr[1] > 12) {
+            System.out.println("inputan invalid mohon masukkan ulang");
+            return;}
+        if (arr[2] >= 40){
+            System.out.printf("%d %s %d%n", arr[0], namaBulan[arr[1] - 1], 1900 + arr[2]);
+        }else{
+            System.out.printf("%d %s %d%n", arr[0], namaBulan[arr[1] - 1], 2000 + arr[2]);
+        }
+    
     }
-
 }
-

@@ -14,9 +14,10 @@ public class TP1_02_H071231072 {
     private static String[] getText(Scanner scan) {
         System.out.println("masukkan judul Film : ");
         String text = scan.nextLine();
-        String low = text.toLowerCase();
-        String[] arr = low.split(" ");
+        // String low = text.toLowerCase();
+        String[] arr = text.split(" ");
         return arr;
-    }
+    }                                                                                                                                                                                      
 }
+
 

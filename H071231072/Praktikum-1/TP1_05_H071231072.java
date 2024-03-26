@@ -18,14 +18,12 @@ public class TP1_05_H071231072 {
                 }
                 if (found) break;
             }
-
             if (!found) {
                 System.out.println("Bilangan tidak ditemukan");
             }
         } catch (Exception e) {
             System.out.println("Input harus berupa angka.");
         }
-
         scanner.close();
     }
 }
