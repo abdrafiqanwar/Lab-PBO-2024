@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TP1_3_H071231080 {
+public class TP1_3_H071231069 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input: \n");

@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class TP1_2_H071231080 {
+public class TP1_2_H071231069 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Masukkan Judul Film:\n> ");
-        String kalimat = scan.nextLine();
-        String kalimatDiubah = ubahHuruf(kalimat);
+        String kalimat = scan.nextLine(); 
+        String kalimatDiubah = ubahHuruf(kalimat); 
         System.out.println("> " + kalimatDiubah);
         scan.close();
     }
@@ -14,8 +14,8 @@ public class TP1_2_H071231080 {
         StringBuilder result = new StringBuilder();
         boolean kapital = true;
 
-        for (char karakter : kalimat.toCharArray()) {
-            if (Character.isLetter(karakter)) {
+        for (char karakter : kalimat.toCharArray()) { 
+            if (Character.isLetter(karakter)) { 
                 if (kapital) {
                     result.append(Character.toUpperCase(karakter));
                     kapital = false;

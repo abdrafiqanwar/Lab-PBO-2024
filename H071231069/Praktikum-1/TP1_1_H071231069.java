@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class TP1_1_H071231080 {
+public class TP1_1_H071231069 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); 
         System.out.print("Masukkan jumlah bilangan: ");
-        int n = sc.nextInt();
-        sc.nextLine(); 
+        int n = sc.nextInt(); 
+        sc.nextLine();
 
         String input = sc.nextLine();
 
@@ -19,15 +19,15 @@ public class TP1_1_H071231080 {
         int bilanganBulat = 0;
         int bilanganDesimal = 0;
 
-        for (String bilanganStr : bilanganStrings) {
+        for (String bilanganStr : bilanganStrings) { 
             try {
                 double x = Double.parseDouble(bilanganStr); 
-                if (x == (int) x) {
+                if (x % 1 == 0) {
                     bilanganBulat++;
                 } else {
                     bilanganDesimal++;
                 }
-            } catch (NumberFormatException e) { 
+            } catch (NumberFormatException e) {
                 System.out.println("Input yang Anda masukkan bukan angka. Silakan coba lagi.");
             }
         }
